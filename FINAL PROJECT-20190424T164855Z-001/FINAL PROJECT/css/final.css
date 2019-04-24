@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.75;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    background-image: url(../images/metofficegovuk_heroMedium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+}
+
+nav {
+   background: rgba(210, 194, 157, 0.45); 
+   height: 13vh;
+   position: fixed;
+   top: 0 ;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+}
+
+nav ul a {
+    padding: 20px 15px 7px 15px;
+}
+
+nav ul a:link {
+    text-decoration: none;
+    color: yellow;
+}
+
+nav ul a:visited {
+    
+}
+
+nav ul a:hover {
+    border-bottom: 1px solid green;
+}
+
+.fas {
+    padding-right: .3rem;
+}
+
+header {
+    padding: 10%;
+    color: yellow;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+}
+
+
+h3 {
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+    color: white;
+}
+p {
+    /* background-color: rgba(255, 255, 255,0.6); */
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.one{
+    background-image: url(../images/Self-Care-image.jpg)
+     justify-content: center; 
+  
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+iframe[src*="//youtube.com/"], iframe[src*="//www.youtube.com/"] {
+   display: block;
+   margin: 0 auto;
+}
+
+
+
+/* div{
+    width: 200px;
+    height: 200px;
+    background: #FF0000;
+    border-radius: 50%;
+} */
